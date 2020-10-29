@@ -19,6 +19,6 @@ def swap_elements(array)
   new_array = []
   new_array.push array[0]
   new_array.push array[1] = array [2]
-  
+  new_array.push array[2] = array[1]
 
 end
