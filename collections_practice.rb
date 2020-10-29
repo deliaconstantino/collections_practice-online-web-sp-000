@@ -1,3 +1,5 @@
+require 'pry'
+
 def sort_array_asc(array)
   array.sort
 end
@@ -45,6 +47,7 @@ end
 def add_s(array)
   array.each_with_index do |word, index|
     if index == 1
+      binding.pry
       word = word
     else
       word = "#{word}s"
