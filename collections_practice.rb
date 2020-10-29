@@ -50,7 +50,7 @@ def add_s(array)
       word = word + "s"
     end
   end
-end"
+end
 
 # def add_s(array)
 #   new_array = []
