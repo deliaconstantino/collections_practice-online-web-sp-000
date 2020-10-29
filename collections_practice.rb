@@ -47,10 +47,12 @@ end
 def add_s(array)
   array.each_with_index do |word, index|
     if index == 1
-      binding.pry
       word = word
     else
       word = "#{word}s"
     end
   end
 end
+
+binding.pry
+add_s("hand", "feet", "knee", "table")
