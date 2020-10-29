@@ -19,4 +19,4 @@ def swap_elements(array)
   array[0], array[1], array[2] = array[0], array [2], array[1]
 end
 
-swap_elements_from_to(array, index_one, index_)
+swap_elements_from_to(array, index_from, index_to)
