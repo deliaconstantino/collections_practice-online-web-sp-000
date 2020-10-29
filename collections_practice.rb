@@ -1,4 +1,4 @@
-require 'pry'
+
 
 def sort_array_asc(array)
   array.sort
@@ -53,6 +53,3 @@ def add_s(array)
     end
   end
 end
-
-binding.pry
-add_s(["hand", "feet", "knee", "table"])
