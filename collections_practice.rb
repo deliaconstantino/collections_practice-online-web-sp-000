@@ -55,4 +55,4 @@ def add_s(array)
 end
 
 binding.pry
-add_s("hand", "feet", "knee", "table")
+add_s(["hand", "feet", "knee", "table"])
